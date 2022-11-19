@@ -1,0 +1,313 @@
+/* stylesheet code - works for all pages /*
+/* body styling */
+
+body {
+	font-size: 90%;
+	font-family: Comic Sans MS;
+	line-height: 1.5;
+	text-align: left;
+	background-color: #6FCAEC;
+}
+
+.body {
+	margin: 0 auto;
+	width: 80%;
+	/* prevents floating */
+	clear: both;
+}
+
+/* db logo in the header of every page */
+
+.mainHeader img {
+	width: 20%;
+	height: auto;
+	margin: 2% 0;
+}
+
+/* styling for navigation bar which is on every page */
+
+.mainHeader nav {
+	background-color: #475eb8;
+	height: 40px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: white;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.mainHeader nav a:hover, mainHeader nav a:active, mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: grey;
+	text-shadow: none;
+}
+
+.mainHeader nav ul lia a {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent img {
+	width: 85%;
+}
+
+.BackgroundInfo {
+	background-color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.AddedArticle {
+	background-color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#searchForm{
+	background-color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#demo {
+	background-color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.firstContent {
+	background-color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.secondContent {
+	background-color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.sidebarRight {
+	width: 20%;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 1.5% 0 2% 3%;
+	padding: 2% 3.45%;
+}
+
+.mainFooterhome {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #475eb8;
+	margin-top: -25%;
+}
+
+.mainFooterhome p {
+	width: 92%;
+	margin: 2% auto;
+	color: white;
+}
+
+.mainFooterAbout {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #475eb8;
+	margin-top: 3%;
+}
+
+.mainFooterAbout p {
+	width: 92%;
+	margin: 2% auto;
+	color: white;
+}
+
+#fight{
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#aizen{
+	width: 30%;
+	height: auto;
+}
+
+#ichigo{
+	width: 30%;
+	height: auto;
+}
+
+#op1{
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#op2{
+	width: 30%;
+	height: auto;
+}
+
+#op3{
+	width: 30%;
+	height: auto;
+}
+
+#jojo1{
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#jojo2{
+	width: 30%;
+	height: auto;
+}
+
+#jojo3{
+	width: 30%;
+	height: auto;
+}
+
+iframe {
+	display: block;
+	margin: auto;
+	height: 300px;
+	width: 500px;
+}
+
+/* slideshow styling on about me page */
+
+div.Slideshow1 {
+	max-width:500px;
+	margin: auto;
+}
+
+.imageSlides {
+	width: 100%;
+}
+
+.Slides {
+	width: 100%;
+}
+
+/* Responsive design media queries - the following elements move accordingly within these breakpoints */
+
+@media only screen and (min-width: 150px) and (max-width: 790px)
+{
+	.body {
+	width: 90%;
+	font-size: 95%
+}
+
+.mainHeader img {
+	width: 100%;
+}
+
+.mainHeader nav {
+	height: 200px;
+}
+
+.mainHeader nav ul {
+	padding-left: 0;
+}
+
+.mainHeader nav ul li {
+	width: 100%;
+	text-align: center;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	padding: 10px 25px;
+	height: 20px;
+	display: block;
+}
+
+.content {
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+}
+
+.firstContent {
+	background-color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+.secondContent {
+	margin-top: 3%;
+}
+
+.sidebarRight {
+	width: 85%;
+	margin: 2% 0 3% 5%;
+	padding: 2% 3%;
+}
+
+iframe {
+	height: 250px;
+	width: 250px;
+}
+
+.mainFooterhome {
+	margin-top: 0%;
+}
+
+#user-name{
+	width: 250px;
+}
+
+}
