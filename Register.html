@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>16 BIT - Gaming Profile</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="CSS/stylesheet.css" type="text/css" />
+	<link rel="icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body background="WebIMG/DBBackground.png_large"
+class="body">
+<!--Header contains logo and navigation links-->
+<header class="mainHeader">
+	<a href="index.html"><img src="WebIMG/DragonBall.png" alt="DragonBall"></a>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+ 		 <li><a href="TrendingShows.html">Trending Shows</a></li>
+ 		 <li><a href="CriticScore.html">Critic Scores</a></li>
+ 		 <li><a href="AboutMe.html">About Me</a></li>
+ 		 <li><a href="Register.html">Register</a></li>
+		</ul>
+	</nav>
+	</header>
+<!--Content divided into articles-->
+<div class="AboutMeContent">
+		<div class="AboutMeInfo">
+			<article class="BackgroundInfo">
+				<header>
+					<h2>Save below your favourite anime!</h2>
+					<h3>What is your favourite anime of all time? Enter it below and save and update whenever you like!</h3>
+				</header>
+
+				<!--Form works with localstorage to allow users to create/update a gaming profile, controlled by JS file linked below-->
+				<form id="get-name" action="#" method="post">
+				<label for="user-name">Favourite Anime:</label>
+				<input type="text" id="user-name">
+				<input type="submit"><input type="reset" value="Clear">
+				</form>
+
+			</article>
+		</div>
+	</div>
+
+	<footer class="mainFooterAbout">
+
+	</footer>
+	<!--Localstorage script-->
+	<script src="JS/localstorage.js"></script>
+</body>
+</html>
