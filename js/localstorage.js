@@ -29,7 +29,7 @@
     localStorage.name = nameStored;
 
 	// alert user when data is saved
-	alert("Your profile has been saved");
+	alert("Favourite Anime is: " + localStorage.name);
 
     return false;
   }
